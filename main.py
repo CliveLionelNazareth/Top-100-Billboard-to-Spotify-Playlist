@@ -11,7 +11,7 @@ last_business_day = last_business_day.strftime("%Y-%m-%d")
 OAUTH_AUTHORIZE_URL = 'https://accounts.spotify.com/authorize'
 OAUTH_TOKEN_URL = 'https://accounts.spotify.com/api/token'
 SPOTIPY_CLIENT_ID = os.environ["SPOTIPY_CLIENT_ID"]
-SPOTIPY_CLIENT_SECRET = os.environ["SPOTIPY_CLIENT_ID"]
+SPOTIPY_CLIENT_SECRET = os.environ["SPOTIPY_CLIENT_SECRET"]
 PLAYLIST_PRIVATE_AUTHORIZATION_SCOPE = "playlist-modify-private"
 SPOTIPY_REDIRECT_URI = "http://example.com"
 
